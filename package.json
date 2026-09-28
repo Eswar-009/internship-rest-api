@@ -1,0 +1,15 @@
+{
+  "name": "internship-rest-api",
+  "version": "1.0.0",
+  "description": "EdVyro Full Stack Development Task 2 - REST API and Persistent Data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}
